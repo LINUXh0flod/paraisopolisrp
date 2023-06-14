@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto:ital@1&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+a {
+    color: black;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans;
+}
+
+a:hover {
+   font-size: 18px;
+   
+}
+
+/*========================*/
+
+/*variables*/
+:root {
+    
+    /* colors */
+    --hue: 240;
+    /* HSL color mode */
+    --color1: #590A10;
+    --color2: #A60D0D;
+    --color3: #F21616;
+    --color4: #730A0A;
+    --color5: #1d0808;
+  }
+  /**/
+
+
+
+  body {
+    background-color: var(--color5);
+    
+}
+
+  #header {
+width: 100%;
+height: 40px;
+background-color: var(--color4);
+display: flex;
+align-items: center;
+justify-content: center;
+
+  }
+
+  .logo {
+     height: 10px;
+     width: 150px;
+  }
+
+
+img {
+    width: 100%;
+}
+
+  .listaHeader {
+      
+  }
+
+  ul{
+      display: flex;
+      list-style-type: none;
+  }
+  
+  .popo {
+    padding: 42px;
+  }
+
+ 
+
+  main {
+
+  }
