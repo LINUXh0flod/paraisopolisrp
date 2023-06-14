@@ -56,13 +56,14 @@ justify-content: center;
   }
 
   .logo {
+    margin-bottom: 4em;
      height: 10px;
      width: 150px;
   }
 
 
 img {
-    width: 100%;
+    width: 120%;
 }
 
   .listaHeader {
