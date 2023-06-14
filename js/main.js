@@ -11,6 +11,6 @@ function entrar() {
 if (email.value === 'linux25@gmail.com' && senha.value === '346263') {
     window.location.href = "home1.html" 
   } else {
-    window.alert('Senha incorreta')
+    window.alert('Email ou senha incorretos.')
   }
    }

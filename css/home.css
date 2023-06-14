@@ -59,11 +59,13 @@ justify-content: center;
     margin-bottom: 4em;
      height: 10px;
      width: 150px;
+     position: fixed;
   }
 
 
 img {
     width: 120%;
+    
 }
 
   .listaHeader {
@@ -76,7 +78,7 @@ img {
   }
   
   .popo {
-    padding: 42px;
+    padding: 60px;
   }
 
  
@@ -84,3 +86,38 @@ img {
   main {
 
   }
+
+ 
+
+
+ .menu {
+   display: none;
+ }
+  
+
+  @media screen and (max-width: 933px) { 
+    
+    .block1 {
+      display: none;
+    }
+
+  
+
+   }
+  
+   @media screen and (max-width: 616px) { 
+    
+    .block2 {
+      display: none;
+    }
+
+    .popo {
+      padding: 100px;
+    }
+
+
+
+
+
+   }
+  
